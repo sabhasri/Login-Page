@@ -1,0 +1,21 @@
+
+    <link rel="stylesheet" href="log.css">
+    <body>
+        
+    
+<center>
+    <div class="login">
+        
+    <form>
+        <h1>  log in </h1>
+    <label for="UserName"> UserName </label>
+    <input type="text" name="NAME" id="NAME" >
+    <label for="">Password</label>
+    <input type="password" placeholder="Enter your Password">
+    <button id="d">Submit</button>
+
+</form>
+</div>
+</center>
+</body>
+    

@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:url(pexels-albinberlin-919073.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(5%)
+
+
+
+}
+.login
+{
+        width: 400px;
+    height: 400px;
+    color: rgb(213, 233, 213);
+    border-radius: 10px;
+    background-size:contain ;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 820px;
+}
+form
+{
+
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(30%);
+    flex-direction: column;
+    display:inline-flex;
+
+}
+h1
+{   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style:normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding:auto;
+    margin-bottom: 35px;
+
+
+    
+}
+label
+{
+    color: rgb(240, 239, 248);
+    text-transform: uppercase;
+    padding: 1.2px;
+    letter-spacing: 7px;
+    
+}
+input
+{
+    background: rgba(247, 244, 244, 0.212);
+    height: 40px;
+    line-height: 70px;
+    border-radius: 10px;
+    padding: 0px 20px ;
+    border: none;
+    margin-bottom: 20px;
+
+
+}
+input:hover{
+    
+background-color: rgba(245, 239, 239, 0.811);
+color: azure;
+    }
+
+    button 
+    {
+    background: rgba(219, 206, 158, 0.183);
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: aliceblue;
+    letter-spacing: 4;
+
+
+
+
+        
+    }
+    button:hover{
+        background-color: rgba(236, 236, 244, 0.502);
+    }
+    body
+    
+    {
+        color: rgb(15, 250, 250);
+    }
+    button :active{
+        background-color: black;
+    }
+    label  :hover{
+        letter-spacing: 10px;
+    }

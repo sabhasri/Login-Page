@@ -1,33 +1,41 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 body{
-    background:url(pexels-albinberlin-919073.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: brightness(5%)
-
+    background-image:url(website-background-templates.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(246, 246, 243);
+    background-size: 100% 100%;
+    backdrop-filter: brightness(80%)
 
 
 }
-.login
+
+.logins
 {
         width: 400px;
     height: 400px;
-    color: rgb(213, 233, 213);
-    border-radius: 10px;
-    background-size:contain ;
+    background-color: rgba(35, 124, 192, 0.555);
+    color: rgb(253, 255, 253);
+    border-radius: 15px;
+    background-size:contain;
     background-position: center;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 820px;
+    
 }
 form
 {
 
-    display: block;
+    display:block;
     box-sizing: border-box;
     padding: 40px;
     width: 100%;
@@ -52,28 +60,32 @@ h1
 }
 label
 {
-    color: rgb(240, 239, 248);
+    color: rgb(248, 248, 248);
     text-transform: uppercase;
     padding: 1.2px;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
+    background: transparent;
     
 }
 input
 {
-    background: rgba(247, 244, 244, 0.212);
+    background: rgba(247, 244, 244, 0.968);
     height: 40px;
     line-height: 70px;
     border-radius: 10px;
     padding: 0px 20px ;
-    border: none;
+    border:none;
     margin-bottom: 20px;
+    margin-top: 3;
+    
 
 
 }
+
 input:hover{
     
 background-color: rgba(245, 239, 239, 0.811);
-color: black;
+color: rgb(0, 8, 8);
     }
 
     button 
@@ -81,9 +93,10 @@ color: black;
     background: rgba(219, 206, 158, 0.183);
     border: none;
     border-radius: 10px;
-    height: 45px;
+    line-height: 40px;
+    margin-top: 8;
+    margin-bottom: 5;
     text-transform: uppercase;
-    margin: 10px 0px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 15px;
@@ -98,14 +111,32 @@ color: black;
     button:hover{
         background-color: rgba(236, 236, 244, 0.502);
     }
-    body
-    
-    {
-        color: rgb(15, 250, 250);
-    }
     button :active{
         background-color: black;
     }
     label  :hover{
         letter-spacing: 10px;
     }
+
+.sa a {
+text-decoration: none;
+color: aliceblue;
+margin-left: 205px;
+
+}
+.sa a:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.s p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.s p a:hover{
+    text-decoration: underline;
+}
+
